@@ -1,0 +1,7 @@
+.dockerignore
+.git
+.github
+.gitignore
+docker.png
+questions-and-answers.md
+with_static_mkdir

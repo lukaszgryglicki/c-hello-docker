@@ -20,6 +20,11 @@ exec /HelloWorld: exec format error
 Which is expected.
 
 
+# Questions
+
+Please see `questions-and-answers.md` file (it is .gitignored).
+
+
 # Technical details
 
 - `Dockerfile` is used when building image for the current (non-cross) architecture.

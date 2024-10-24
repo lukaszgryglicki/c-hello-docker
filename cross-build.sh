@@ -22,4 +22,5 @@ function cleanup {
 trap cleanup EXIT
 
 sed -i "s/{{arch}}/${arch}/g" "./Dockerfile.${arch}"
+# docker build --squash -f "./Dockerfile.${arch}" -t "${IMAGE}" . && docker image ls | grep "${IMAGE}" && docker push "${IMAGE}"
 docker build -f "./Dockerfile.${arch}" -t "${IMAGE}" . && docker image ls | grep "${IMAGE}" && docker push "${IMAGE}"
