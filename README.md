@@ -22,7 +22,7 @@ Which is expected.
 
 # Questions
 
-Please see `questions-and-answers.md` file (it is .gitignored).
+Please see `questions-and-answers.md` file (it is .gitignored) - so it is only available when you unpack c-hello-docker.tar.gz locally).
 
 
 # Technical details
