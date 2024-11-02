@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# examnple architectures: arm-linux-gnueabi, aarch64-linux-gnu, 
+# examnple architectures: arm-linux-gnueabi, aarch64-linux-gnu, riscv64-unknown-elf
 if [ -z "${USR}" ]
 then
   USR=lukaszgryglicki
@@ -8,7 +8,7 @@ fi
 
 if [ -z "${1}" ]
 then
-  echo "$0: you need to specify arch, for example: 'aarch64-linux-gnu'"
+  echo "$0: you need to specify arch, for example: 'aarch64-linux-gnu', 'arm-linux-gnueabi', 'riscv64-unknown-elf'"
   exit 1
 fi
 arch="${1}"
